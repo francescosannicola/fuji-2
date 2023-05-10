@@ -30,6 +30,8 @@ from fuji_server.helper.metadata_mapper import Mapper
 
 
 class FAIREvaluatorDataProvenance(FAIREvaluator):
+    print ("5")
+
     """
     A class to evaluate metadata that includes provenance information about data creation or generation (R1.2-01M).
     A child class of FAIREvaluator.

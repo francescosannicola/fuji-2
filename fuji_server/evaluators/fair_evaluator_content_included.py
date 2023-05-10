@@ -33,6 +33,8 @@ import urllib
 
 
 class FAIREvaluatorContentIncluded(FAIREvaluator):
+    print ("2")
+
     """
     A class to evaluate whether the metadata includes the identifier of the data is being described (F3-01M).
     A child class of FAIREvaluator.

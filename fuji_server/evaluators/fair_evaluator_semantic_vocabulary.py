@@ -29,6 +29,9 @@ from fuji_server.helper.linked_vocab_helper import linked_vocab_helper
 
 
 class FAIREvaluatorSemanticVocabulary(FAIREvaluator):
+
+    print ("14")
+
     """
     A class to evaluate whether the metadata uses semantic resources (I1-02M).
     A child class of FAIREvaluator.

@@ -29,6 +29,8 @@ from fuji_server.models.community_endorsed_standard_output_inner import Communit
 
 
 class FAIREvaluatorCommunityMetadata(FAIREvaluator):
+
+    print ("1")
     """
     A class to evaluate metadata that follows a standard recommended by the target research of the data (R.13-01M).
     A child class of FAIREvaluator.

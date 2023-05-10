@@ -29,6 +29,8 @@ from fuji_server.helper.metadata_mapper import Mapper
 
 
 class FAIREvaluatorCoreMetadata(FAIREvaluator):
+    print ("10")
+
     """
     A class to evaluate the metadata that includes core descriptive elements (creator, title, data identifier, publisher, publication date, summary, and
     keywords) to support data finding (F2-01M). A child class of FAIREvaluator.

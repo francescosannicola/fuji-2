@@ -28,6 +28,8 @@ from fuji_server.models.metadata_preserved_output import MetadataPreservedOutput
 
 
 class FAIREvaluatorMetadataPreserved(FAIREvaluator):
+    print ("9")
+
     """
     A class to evaluate that the metadata remains available, even if the data is no longer available (A2-01M).
     A child class of FAIREvaluator.

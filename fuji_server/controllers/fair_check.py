@@ -61,6 +61,8 @@ from fuji_server.evaluators.fair_evaluator_metadata_preservation import FAIREval
 from fuji_server.evaluators.fair_evaluator_community_metadata import FAIREvaluatorCommunityMetadata
 from fuji_server.evaluators.fair_evaluator_standardised_protocol_data import FAIREvaluatorStandardisedProtocolData
 from fuji_server.evaluators.fair_evaluator_standardised_protocol_metadata import FAIREvaluatorStandardisedProtocolMetadata
+from fuji_server.evaluators.fair_evaluator_eml_standard import FAIREvaluatorEMLStandard
+
 from fuji_server.harvester.metadata_harvester import MetadataHarvester
 
 from fuji_server.helper.metadata_mapper import Mapper
@@ -556,6 +558,11 @@ class FAIRCheck:
 
     def check_community_metadatastandards(self):
         community_metadata_check = FAIREvaluatorCommunityMetadata(self)
+        community_metadata_check.set_metric('FsF-R1.3-01M', metrics=FAIRCheck.METRICS)
+        return community_metadata_check.getResult()
+
+    def check_eml_standard(self):
+        community_metadata_check = FAIREvaluatorEMLStandard(self)
         community_metadata_check.set_metric('FsF-R1.3-01M', metrics=FAIRCheck.METRICS)
         return community_metadata_check.getResult()
 

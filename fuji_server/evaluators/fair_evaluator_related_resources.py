@@ -29,6 +29,9 @@ from fuji_server.models.related_resource_output import RelatedResourceOutput
 
 
 class FAIREvaluatorRelatedResources(FAIREvaluator):
+
+    print ("12")
+
     """
     A class to evaluate that the metadata links between the data and its related entities (I3-01M).
     A child class of FAIREvaluator.

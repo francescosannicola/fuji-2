@@ -30,6 +30,8 @@ from fuji_server.models.formal_metadata_output_inner import FormalMetadataOutput
 
 
 class FAIREvaluatorFormalMetadata(FAIREvaluator):
+    print ("7")
+
     """
     A class to evaluate that the metadata is represented using a formal knowledge representation language (I1-01M).
     A child class of FAIREvaluator.

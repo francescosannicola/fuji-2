@@ -80,7 +80,7 @@ def main():
         default_limits=[str(config['SERVICE']['rate_limit'])]
     )
     #comment in case waitress is wished
-    #app.run(host=config['SERVICE']['service_host'], port=int(config['SERVICE']['service_port']),debug=False)
+    # app.run(host=config['SERVICE']['service_host'], port=int(config['SERVICE']['service_port']),debug=False)
     #switch to waitress
     serve(app, host=config['SERVICE']['service_host'], port=int(config['SERVICE']['service_port']))
 
@@ -93,6 +93,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     config = configparser.ConfigParser()
     config.read(args.config)
+    print(*config.items(), sep='\n')
     log_configfile = os.path.join(my_path, config['SERVICE']['log_config'])
     log_dir = config['SERVICE']['logdir']
     log_directory = os.path.join(my_path, log_dir)

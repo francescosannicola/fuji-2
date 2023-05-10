@@ -31,6 +31,9 @@ import re
 
 
 class FAIREvaluatorFileFormat(FAIREvaluator):
+    print ("6")
+
+
     """
     A class to evaluate whether the data is available in a file format recommended by the targe research community (R1.3-02D).
     A child class of FAIREvaluator.

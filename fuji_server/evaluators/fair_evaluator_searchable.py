@@ -36,6 +36,8 @@ from typing import List, Any
 
 
 class FAIREvaluatorSearchable(FAIREvaluator):
+    print ("13")
+
     """
     A class to evaluate whether the metadata is offered to be retrievable by the machine (F4-01M).
     A child class of FAIREvaluator.

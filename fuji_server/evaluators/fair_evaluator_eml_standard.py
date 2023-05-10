@@ -32,8 +32,8 @@ from fuji_server.models.uniqueness import Uniqueness
 from fuji_server.evaluators.fair_evaluator import FAIREvaluator
 
 
-class FAIREvaluatorUniqueIdentifier(FAIREvaluator):
-    print ("17")
+class FAIREvaluatorEMLStandard(FAIREvaluator):
+    print ("eml")
 
 
     """

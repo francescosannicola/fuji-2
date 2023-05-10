@@ -34,6 +34,8 @@ import re
 from bs4 import BeautifulSoup
 
 class FAIREvaluatorPersistentIdentifier(FAIREvaluator):
+    print ("11")
+
     """
     A class to evaluate that the data is assigned a persistent identifier (F1-02D). A child class of FAIREvaluator.
     ...

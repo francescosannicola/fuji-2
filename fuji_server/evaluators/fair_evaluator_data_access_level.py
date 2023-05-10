@@ -31,6 +31,8 @@ import re
 
 
 class FAIREvaluatorDataAccessLevel(FAIREvaluator):
+    print ("3")
+
     """
     A class to evaluate whether the metadata contains access level and access conditions of the data (A1-01M).
     A child class of FAIREvaluator.

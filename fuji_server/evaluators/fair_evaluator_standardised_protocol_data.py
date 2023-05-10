@@ -30,6 +30,9 @@ from urllib.parse import urlparse
 
 
 class FAIREvaluatorStandardisedProtocolData(FAIREvaluator):
+
+    print ("15")
+
     """
     A class to evaluate whether the data is accessible through a standardized communication protocol (A1-03D).
     A child class of FAIREvaluator.

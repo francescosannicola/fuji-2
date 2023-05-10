@@ -34,6 +34,8 @@ from tika import parser
 
 
 class FAIREvaluatorDataContentMetadata(FAIREvaluator):
+    print ("4")
+
     """
     A class to evaluate whether the metadata specifies the content of the data (R1.01MD). A child class of FAIREvaluator.
     ...

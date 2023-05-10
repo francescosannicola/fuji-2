@@ -30,6 +30,9 @@ from urllib.parse import urlparse
 
 
 class FAIREvaluatorStandardisedProtocolMetadata(FAIREvaluator):
+    print ("16")
+
+
     """
     A class to evaluate whether the metadata is accessible through a standardized communication protocol (A1-02M).
     A child class of FAIREvaluator.

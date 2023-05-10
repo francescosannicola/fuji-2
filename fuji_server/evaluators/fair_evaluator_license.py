@@ -32,6 +32,9 @@ import idutils
 
 
 class FAIREvaluatorLicense(FAIREvaluator):
+
+    print ("8")
+
     """
     A class to evaluate the license information under which data can be reused (R1.1-01M).
     A child class of FAIREvaluator.
